@@ -7,8 +7,6 @@ Esse projeto é uma demonstração de uma implementação de um **Dispositivo Io
 
 	
 
-
-
 ## Índice
 - [Sobre](#sobre-o-projeto)
 - [Requisitos](#requisitos)
@@ -99,16 +97,20 @@ Nesse projeto foi configurado, em Python, um dispositivo IoT que gera dados alea
 
 ## Implementação
 
+### Tutorial
+
+https://github.com/Camila-Barros/mqtt-kafka-simples/assets/114541888/eed82792-72b4-4e62-99ff-738a2ab2406e
+
+
+
+### Publisher MQTT e KAFKA
+
 Criar uma pasta para o projeto e abrir o local no terminal.
 
 ```bash
     # entrar na pasta do projeto
     $ cd mqtt-kafka-simples 
 ```
-
-
-
-### Publisher MQTT e KAFKA
 
 Criar um script em Python para o **Produtor MQTT e KAFKA**:
 
@@ -141,7 +143,6 @@ while True:
     print('KAFKA: publicou ' + str(randNumber) + ' no tópico TEMPERATURA')
     time.sleep(5)
 ```
-
 
 
 
