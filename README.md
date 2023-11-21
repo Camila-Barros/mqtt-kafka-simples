@@ -194,7 +194,9 @@ mqtt_client.loop_stop()
 
     No terminal (1) vai aparecer igual a imagem abaixo:
 
-	IMAGEM
+   <p>
+   	<img src="./fig_zookeeper.png">
+   </p>
 
 
 
@@ -212,7 +214,9 @@ mqtt_client.loop_stop()
 
     No terminal (2) vai aparecer igual a imagem abaixo:
 
-	IMAGEM
+   <p>
+   	<img src="./fig_kafka.png">
+   </p>
     
 
 - **Tópico**
@@ -238,7 +242,9 @@ mqtt_client.loop_stop()
 
     No terminal (3) vai aparecer igual a imagem abaixo:
 
-	IMAGEM
+   <p>
+   	<img src="./fig_console.png">
+   </p>
 
 
 - **Subscriber**
@@ -255,7 +261,9 @@ mqtt_client.loop_stop()
 
     No terminal (4) vai aparecer igual a imagem abaixo:
 
-	IMAGEM
+   <p>
+   	<img src="./fig_subscriber.png">
+   </p>
 	
 
 - **Publisher**
@@ -271,7 +279,9 @@ mqtt_client.loop_stop()
     ```
     No terminal (5) vai aparecer igual a imagem abaixo, onde é possível ver que duas mensagens idênticas foram enviadas para o servidor MQTT e para o servidor KAFKA:
 
-	IMAGEM
+   <p>
+   	<img src="./fig_publisher.png">
+   </p>
 
 ## Autora
 
