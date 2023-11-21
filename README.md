@@ -5,7 +5,7 @@
 
 Esse projeto é uma demonstração de uma implementação de um **Dispositivo IoT** que envia uma mensagem para ambos os servidores **MQTT e KAFKA**. A mensagem é lida através de um consumidor Kafka.
 
-	IMAGEM
+	
 
 
 
@@ -17,12 +17,13 @@ Esse projeto é uma demonstração de uma implementação de um **Dispositivo Io
     - [Subscriber MQTT](#subscriber-mqtt)
     - [Execução do projeto](#execução-o-projeto)
 
+
 ## Sobre o Projeto
 
 Nesse projeto foi configurado, em Python, um dispositivo IoT que gera dados aleatórios de temperatura entre 24ºC e 26ºC. Esse dispositivo IoT vai publicar (*publish*) duas mensagens: (1) uma no tópico do servidor MQTT e (2) uma idêntica no tópico do servidor Kafka. Essa mensagem será lida (*subscribe*) por um consumidor Kafka.
 
 <p float="center">
-    <img src="./Option1.png">
+    <img src="./fig_modelo.png">
 </p>
 
 
@@ -37,12 +38,12 @@ Nesse projeto foi configurado, em Python, um dispositivo IoT que gera dados alea
 
 ```bash
     # clonar o repositório do projeto
-    $ git clone https://github.com/Camila-Barros/mqtt-kafka-simples.git
+    $ git clone https://github.com/Camila-Barros/mqtt-kafka-simples
 ```
 
 ```bash
     # entrar na pasta do projeto
-    $ cd Testando-Kafka
+    $ cd mqtt-kafka-simples
 ```
 
 
