@@ -5,7 +5,7 @@
 
 Esse projeto é uma demonstração de uma implementação de um **Dispositivo IoT** que envia uma mensagem para ambos os servidores **MQTT e KAFKA**. A mensagem é lida através de um consumidor Kafka.
 
-[<img src="./imagem.png">](https://www.youtube.com/watch?v=4_TFw1LDRQ4)
+	IMAGEM
 
 
 
@@ -194,9 +194,7 @@ mqtt_client.loop_stop()
 
     No terminal (1) vai aparecer igual a imagem abaixo:
 
-    <p>
-        <img src="./imagem.png">
-    </p>
+	IMAGEM
 
 
 
@@ -214,9 +212,7 @@ mqtt_client.loop_stop()
 
     No terminal (2) vai aparecer igual a imagem abaixo:
 
-    <p>
-        <img src="./imagem.png">
-    </p>
+	IMAGEM
     
 
 - **Tópico**
@@ -242,9 +238,7 @@ mqtt_client.loop_stop()
 
     No terminal (3) vai aparecer igual a imagem abaixo:
 
-    <p>
-        <img src="./imagem.png">
-    </p>
+	IMAGEM
 
 
 - **Subscriber**
@@ -256,14 +250,13 @@ mqtt_client.loop_stop()
     $ cd mqtt-kafka-simples
 
     # executar o script do consumidor
-    $ phyton3 subscriber_mqtt.py
+    $ python3 subscriber_mqtt.py
     ``` 
 
     No terminal (4) vai aparecer igual a imagem abaixo:
 
-    <p>
-        <img src="./imagem.png">
-    </p>
+	IMAGEM
+	
 
 - **Publisher**
 
@@ -274,14 +267,11 @@ mqtt_client.loop_stop()
     $ cd mqtt-kafka-simples
 
     # executar o script do produtor
-    $ phyton3 publisher_mqtt_kafka.py   
+    $ python3 publisher_mqtt_kafka.py   
     ```
     No terminal (5) vai aparecer igual a imagem abaixo, onde é possível ver que duas mensagens idênticas foram enviadas para o servidor MQTT e para o servidor KAFKA:
 
-    <p>
-        <img src="./imagem.png">
-    </p>
-
+	IMAGEM
 
 ## Autora
 
