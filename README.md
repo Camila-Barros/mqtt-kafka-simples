@@ -13,7 +13,7 @@ Esse projeto é uma demonstração de uma implementação de um **Dispositivo Io
 - [Sobre](#sobre-o-projeto)
 - [Requisitos](#requisitos)
 - [Implementação](#implementação)
-    - [Producer MQTT e KAFKA](#publisher-mqtt-e-kafka)
+    - [Publisher MQTT e KAFKA](#publisher-mqtt-e-kafka)
     - [Subscriber MQTT](#subscriber-mqtt)
     - [Execução do projeto](#execução-o-projeto)
 
