@@ -3,13 +3,10 @@
 [![NPM](https://img.shields.io/npm/l/react)](https://github.com/Camila-Barros/mqtt-kafka-simples/blob/main/LICENSE)
 
 
-## Dispositivo IoT publica duas mensagens
-
 Esse projeto é uma demonstração de uma implementação de um **Dispositivo IoT** que envia uma mensagem para ambos os servidores **MQTT e KAFKA**. A mensagem é lida através de um consumidor Kafka.
 
-<p> 
-<iframe width="478.8" height="269.325" src="https://www.youtube.com/embed/4_TFw1LDRQ4?si=eSyBI_4BJvUWx1Gg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</p>
+[<img src="./Option1.png">](https://www.youtube.com/watch?v=4_TFw1LDRQ4)
+
 
 
 ## Índice
@@ -27,8 +24,6 @@ Nesse projeto foi configurado, em Python, um dispositivo IoT que gera dados alea
 <p float="center">
     <img src="./Option1.png">
 </p>
-
-![Logo da Minha Empresa](https://exemplo.com/logo.png)
 
 
 
